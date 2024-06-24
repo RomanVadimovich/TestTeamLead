@@ -1,0 +1,23 @@
+@import 'header';
+@import 'structure';
+@import 'slider';
+@import 'promo';
+@import 'footer';
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
